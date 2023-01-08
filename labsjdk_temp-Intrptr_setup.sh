@@ -9,7 +9,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 git clone https://github.com/vishnukumarkalidasan/graal_labs-openjdk-17.git -b jdk_x86
 
-source ./envv
+#source ./envv
 
 cd graal_labs-openjdk-17
 export JVMCI_VERSION=jvmci-22.3-b08
