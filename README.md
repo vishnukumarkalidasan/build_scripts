@@ -1,3 +1,6 @@
+the provided scripts are bash scripts. perform 'chmod +x <script>' before execution or use 'bash' command.
+
+
 execute labsjdk_cpp-Intrptr_setup.sh for zero interpreter (cpp interpreter) for live debugging of interpretation in runtime. zero interpreter does not use the assembler. it does inline interpretation which means it is not specific to any target and disables compilation of mehtods (disables machine code generation).
 
 execute helloworld using normal commands.
