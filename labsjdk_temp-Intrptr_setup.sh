@@ -25,6 +25,9 @@ sh configure --with-conf-name=labsjdk     --with-version-opt=$JVMCI_VERSION     
 
 make CONF_NAME=labsjdk JOB=8 > /dev/null
 
+cp ../hsdis-amd64.so build/labsjdk/jdk/lib
+cp ../hsdis-aarch64.so build/labsjdk/jdk/lib
+
 echo "jdk libs at path:"
 echo $(pwd)/build/labsjdk/jdk
 
