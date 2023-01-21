@@ -2,7 +2,8 @@
 
 wget https://github.com/graalvm/labs-openjdk-17/releases/download/jvmci-22.3-b08/labsjdk-ce-17.0.5+8-jvmci-22.3-b08-debug-linux-amd64.tar.gz
 
-mkdir labsjdk-lib && tar xf labsjdk-ce-17.0.5+8-jvmci-22.3-b08-debug-linux-amd64.tar.gz -C labsjdk-lib --strip-components 1
+mkdir labsjdk-lib
+tar xf labsjdk-ce-17.0.5+8-jvmci-22.3-b08-debug-linux-amd64.tar.gz -C labsjdk-lib --strip-components 1
 
 export JAVA_HOME=$(pwd)/labsjdk-lib
 export PATH=$JAVA_HOME/bin:$PATH

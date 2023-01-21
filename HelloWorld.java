@@ -11,7 +11,7 @@ class HelloWorld {
 
     private static int workload(int a, int b) {	
 	//System.out.println("Hello world: from compiled workload");
-	int x = a - b;
+	int x = a * b;
 	int z = x * 10;
         return z;
     }
