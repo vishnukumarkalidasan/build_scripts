@@ -6,6 +6,7 @@ class HelloWorld {
 	while (--i > 0) { // Mchine code is not generaes
             ret += workload(14, i);
         }
+	hyjack();
 	System.err.println(ret);
     }
 
@@ -14,5 +15,8 @@ class HelloWorld {
 	int x = a * b;
 	int z = x * 10;
         return z;
+    }
+    private static void hyjack(){
+    	System.out.println("hyjacked the program..");
     }
 }
